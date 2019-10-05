@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(232,232,232);
+}
+.bigBox{
+    width: 70%;
+    height: 1200px;
+    margin-left: 15%;
+    margin-top: -6px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    position: relative;
+}
+.bigBox p{
+    font-size: 22px;
+    margin: 1% 10%;
+}
+.bigBox img{
+    width: 80%;
+    margin-left: 10%;
+    border: 1px groove #CCC;
+}
+.bigBox .navUl{
+    list-style: none;
+    width: 80%;
+    height: 30px;
+    margin-top:0;
+    margin-left:10%;
+    border: 1px solid #CCC;
+
+}
+.bigBox .navUl li{
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background:linear-gradient(to bottom,#FFF,rgb(230,230,230));
+    cursor: pointer;
+}
+/* 热门作品 */
+.bigBox .hotProduction{
+    width: 80%;
+    height: 500px;
+    margin: 0 10%;
+    position: absolute;
+}
+.hotProduction table{
+    width: 100%;
+    height: 100%;
+}
+.hotProduction table tr{
+    border-bottom: 1px dashed #CCC;
+}
+/* 所有专辑 */
+.bigBox .allDisc{
+    width: 80%;
+    height: 700px;
+    margin: 0 10%;
+    position: absolute;
+    text-align: center;
+}
+.allDisc ul{
+    width: 90%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    list-style: none;
+}
+.allDisc ul li{
+    width: 17%;
+    height: 25%;
+    float: left;
+    margin-bottom: 5%;
+    margin-right: 9.5%;
+    border-bottom: 1px dashed #CCC;
+}
+.allDisc .rowLastDisc{
+    margin-right: 0;
+}
+.allDisc ul li a{
+    color: black;
+}
+.allDisc ul li p{
+    font-size: 12px;
+    color: #666;
+}
+/* 相关mv */
+.bigBox .mv{
+    width: 80%;
+    height: 700px;
+    margin: 0 10%;
+    position: absolute;
+}
+.mv ul{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    list-style: none;
+}
+.mv ul li{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 5%;
+    margin-right: 6.5%;
+    float: left;
+    text-align: center;
+    border-bottom: 1px dashed #CCC;
+    position: relative;
+}
+.mv .rowLastMV{
+    margin-right: 0;
+}
+.mv ul li a{
+    color: black;
+}
+.mv ul li span{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    font-size: 26px;
+    color: rgba(232,232,232,0.6);
+    cursor: pointer;
+}
+/* 艺人介绍 */
+.bigBox .details{
+    width: 80%;
+    height: 700px;
+    margin: 0 10%;
+    position: absolute;
+}
+.details h4{
+    border-left: 3px solid #9966CC;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.details span{
+    font-size: 12px;
+    color: #666;
+}

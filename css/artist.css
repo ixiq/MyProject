@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigBox{
+    width: 70%;
+    height: 1300px;
+    margin: -5px 15%;
+    background: #FFF;
+    position: relative;
+    border:1px solid #CCC;
+}
+.leftBox{
+    width: 17%;
+    height: 100%;
+    border:1px solid #CCC;
+    background: rgb(249,249,249);
+}
+.leftBox h4{
+    margin-left:10%;
+    margin-top: 15%;
+}
+.leftBox hr{
+    width: 80%;
+    margin: 0 10%;
+}
+.leftBox ul{
+    width: 80%;
+    margin:5% 17%;
+    font-size: 12px;
+}
+.leftBox ul li{
+    padding: 3%;
+    color: #CCC;
+}
+.leftBox ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.rightBox{
+    width: 83%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+/* 入驻歌手&热门歌手 */
+.inSinger,.hotSinger{
+    width: 90%;
+    height:35%;
+    margin: 3% 5%;
+}
+.inSinger_head,.hotSinger_head{
+    width: 100%;
+    height: 8%;
+    border-bottom: 3px solid #9966CC;
+}
+.inSinger ul,.hotSinger ul{
+    width: 100%;
+    height: 90%;
+    list-style: none;
+}
+.inSinger ul li,.hotSinger ul li{
+    float: left;
+    width: 17%;
+    height: 37%;
+    margin-top: 3%;
+    margin-right: 3.7%;
+}
+.inSinger .lastLi,.hotSinger .lastLi{
+    margin-right: 0;
+}
+.inSinger img,.hotSinger img{
+    width: 100%;
+    border: 1px solid #CCC;
+}
+.inSinger a,.hotSinger a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+.inSinger ul li span,.hotSinger ul li span{
+    bottom: 0;
+    float: right;
+    font-size: 12px;
+}
+
+
+/* 入驻歌手&热门歌手大标题下的span和a标签 */
+.inSinger_head span,.hotSinger_head span{
+    font-size: 20px;
+    margin-left: 2%;
+}
+.inSinger_head a,.hotSinger_head a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+/* 歌手列表 */
+.singerList{
+    width: 90%;
+    height: 23%;
+    margin-left: 5%;
+    border-top: 1px dashed #CCC;
+}
+.singerList ul{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    list-style: none;
+}
+.singerList ul li{
+    float: left;
+    width: 20%;
+    height: 10%;
+}
+.singerList ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}

@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(232,232,232)
+}
+a{
+	cursor: pointer;
+}
+.bigBox{
+	width: 66%;
+	height: 1600px;
+	margin:6px 17%;
+	background: #FFF;
+	border: 1px solid #CCC;
+	position: relative;
+}
+
+.bigBox .box_left{
+	width: 76%;
+	height: 1600px;
+	border-right: 1px solid #CCC;
+}
+.more{
+	float: right;
+	cursor: pointer;
+}
+
+/* 热门推荐*/
+.bigBox .hot{
+	width: 95%;
+	height: 500px;
+	margin: 5%;
+	float: left;
+	position: relative;
+}
+/* 热门推荐 头部 */
+.bigBox .hot .hot_head{
+	width: 95%;
+	height: 7%;
+	border-bottom: 2px solid #9966CC;
+}
+.hot_head a{
+	text-decoration: none;
+	color: #666666;
+}
+.hot_head .big_title{
+	font-size: 20px;
+	cursor: pointer;
+	margin: 3px 3px;
+	color: #000;
+}
+.hot_head .small_title{
+	width: 400px;
+	height: 35px;
+	top: 10px;
+	left: 150px;
+	position: absolute;
+}
+.hot_head .small_title .line {
+    margin: 0 10px;
+    color: #CCC;
+}
+.hot_head .more{
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.hot ul{
+	height: 90%;
+	list-style: none;
+}
+.hot ul li{
+	width: 20%;
+	height: 40%;
+	float: left;
+    display: block;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.hot #hot_ul .hotImg{
+	width: 100%;
+	height: 70%;
+	position: relative;
+}
+.hot #hot_ul .bottom{
+	background: rgba(46,46,46,0.5);
+	width: 96%;
+	height: 26px;
+	bottom: 0;
+	position: absolute;
+}
+.hot #hot_ul a{
+	color: #000;
+}
+
+/* 热门推荐 头部 小图标 */
+.glyphicon-record{
+	color: #9966CC;
+	margin: 10px 10px;
+}
+.glyphicon-arrow-right{
+	float: right;
+	color: #9966CC;
+	cursor: pointer;
+}
+.hot_head .glyphicon-arrow-right{
+	margin-right: -60px;
+	margin-top: 11px;
+}
+
+/* 新碟上架 */
+.newDisc{
+	width: 90%;
+	height: 350px;
+	margin-left: 5%;
+	float: left;
+	position: relative;
+}
+.disc_head{
+	border-bottom: 2px solid #9966CC;
+	position: relative;
+}
+.disc_head .big_title{
+	font-size: 20px;
+	cursor: pointer;
+	margin: 3px 3px;
+	color: #000;
+}
+.disc_head a{
+	text-decoration: none;
+}
+.disc_head .more{
+	color: #666666;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.disc_head .glyphicon-arrow-right{
+	margin-right: -60px;
+	margin-top: 11px;
+}
+.newDisc .album-roller{
+	width: 100%;
+	height: 55%;
+	background: rgb(245,245,245);
+	border: 1px solid #CCC;
+	margin-top: 3%;
+	position: relative;
+	overflow: hidden;
+}
+.roller-flag{
+	list-style: none;
+	position: absolute;
+	margin-top: 4%;
+	height: 140px;
+	width: 100%;
+}
+.roller-flag li{
+	width: 100px;
+	height: 100%;
+	margin-left: 4.5%;
+	float: left;
+}
+.roller-flag a{
+	color: #666;
+	font-size: 12px;
+	display: block;
+	height: 15px;
+}
+.piece1{
+	left: 0px;
+	top: 0;
+}
+/* 榜单 */
+.hotList{
+	width: 90%;
+	height: 725px;
+	margin-left: 5%;
+	float: left;
+	position: relative;
+}
+.hotList .list_head{
+	border-bottom: 2px solid #9966CC;
+	position: relative;
+}
+.list_head .big_title{
+	font-size: 20px;
+	cursor: pointer;
+	margin: 3px 3px;
+	color: #000;
+}
+.list_head a{
+	text-decoration: none;
+}
+.list_head .more{
+	color: #666666;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.list_head .glyphicon-arrow-right{
+	margin-right: -60px;
+	margin-top: 11px;
+}
+.list_bottom{
+	position: relative;
+	width: 100%;
+}
+.list_bottom .listBox{
+	width: 33.3%;
+	height: 550px;
+	border: 1px solid #CCC;
+	margin-top: 30px;
+	float: left;
+	background: rgb(244,244,244);
+}
+.listBox .box1{
+	position: relative;
+}
+.BdPicture{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px groove #CCC;
+	box-shadow: 0 5px 5px #CCC;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.bsb_picture{
+	background: url(../img/bsb.jpg) no-repeat;
+}
+.xgb_picture{
+	background: url(../img/xgb.jpg) no-repeat;
+}
+.ycb_picture{
+	background: url(../img/ycb.jpg) no-repeat;
+}
+.BdTxt{
+	width: 110px;
+	height: 70px;
+	top: 70px;
+	position: absolute;
+}
+.bd1{
+	left: 17%;
+	font-family:"microsoft yahei";
+}
+.bd2{
+	left: 50%;
+}
+.bd3{
+	left:85%;
+}
+.listBox span{
+	margin:10px 10px ;
+	font-size: 20px;
+	cursor: pointer;
+}
+.Ranking{
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+}
+.Ranking a{
+	color: #000000;
+	width: 90%;
+	height: 40px;
+	display: block;
+	top: 5px;
+	text-decoration: none;
+	padding:10px;
+}
+.Ranking ul{
+	list-style: none;
+	width: 100%;
+}
+.Ranking ul li{
+	font-size: 14px;
+	width: 100%;
+	height: 40px;
+	position: relative;
+
+}
+.Ranking ul li:hover{
+	font-size: 16px;
+}
+.Ranking ul li span{
+	width: 10%;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: -7px;
+	padding-top:9px;
+}
+.glyphicon-play-circle{
+	cursor: pointer;
+}
+#hot_ul .glyphicon-play-circle{
+	color: #CCC;
+}
+#hot_ul span{
+	font-size: 18px;
+	top: 5px;
+	right: 5px;
+	position: absolute;
+}
+/* 热门歌手 */
+.box_right{
+	width: 24%;
+	height: 1100px;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+.box_right .singer_head{
+	width: 230;
+	height: 35px;
+	margin:5%;
+	border-bottom: 1px solid #CCC;
+}
+.singer_head h5{
+	padding: 10px;
+}
+.singer_head a{
+	color: #666;
+	right: 16px;
+	top: 20px;
+	position: absolute;
+	font-size: 12px;
+}
+.singer_body{
+	margin:20px 10px;
+}
+.singer_body ul{
+	list-style: none;
+}
+.singer_body ul li{
+	margin: 15% 5%;
+	width: 90%;
+	height: 60px;
+	background: rgb(250,250,250);
+	border: 1px solid #CCC;
+	position: relative;
+}
+.singer_body ul li img{
+	height: 100%;
+}
+.singer_body ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+.singer_body ul li p{
+	font-size: 12px;
+	color: #666;
+	margin-top: 3%;
+}
+.singer_body ul li div{
+	width:70%;
+	position: absolute;
+	bottom: 0;
+	left: 67px;
+}
+
+

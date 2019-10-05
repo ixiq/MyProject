@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>首页</title>
+	<iframe src="head.html" width="100%" ; height="100px" frameborder="0" scrolling="no" name="headFrame"></iframe>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/songList.css" />
+</head>
+
+<body>
+	<!--轮播-->
+	<div id="picturePlay">
+		<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+		<div class="box_lunbo">
+			<ul class="list-inline banner_lunbo">
+				<li><img src="img/indexLB/lb1.jpg" /></li>
+				<li><img src="img/indexLB/lb2.jpg" /></li>
+				<li><img src="img/indexLB/lb3.jpg" /></li>
+				<li><img src="img/indexLB/lb4.jpg" /></li>
+				<li><img src="img/indexLB/lb5.jpg" /></li>
+			</ul>
+			<ol class="curren">
+				<li class="1"></li>
+				<li class="2"></li>
+				<li class="3"></li>
+				<li class="4"></li>
+				<li class="5"></li>
+			</ol>
+		</div>
+		<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+	</div>
+
+	<div class="bigBox">
+
+		<div class="box_left">
+			<!--热门推荐-->
+			<div class="hot">
+				<!--热门推荐头部-->
+				<div class="hot_head">
+					<span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+					<a class="big_title">热门推荐</a>
+					<div class="small_title">
+						<a href="">华语</a>
+						<span class="line">|</span>
+						<a href="">流行</a>
+						<span class="line">|</span>
+						<a href="">摇滚</a>
+						<span class="line">|</span>
+						<a href="">民谣</a>
+						<span class="line">|</span>
+						<a href="">电子</a>
+					</div>
+					<a class="more">更多</a>
+					<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+				</div>
+				<!--热门推荐八个图-->
+				<ul id="hot_ul"></ul>
+			</div>
+			
+			<!--新碟上架-->
+			<div class="newDisc">
+				<div class="disc_head">
+					<span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+					<a class="big_title">新碟上架</a>
+					<a class="more">更多</a>
+					<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+				</div>
+				<div class="album-roller">
+					<ul class="roller-flag piece1">
+						<li>
+							<div class="u-cover1">
+								<img src="img/newDisc/disc1.jpg">
+								<a><p>引路的风筝</p></a>
+								<a><p>张韶涵</p></a>
+							</div>
+						</li>
+						<li>
+							<div class="u-cover2">
+								<img src="img/newDisc/disc2.jpg">
+								<a><p>Lover</p></a>
+								<a><p>Taylor Swift</p></a>
+							</div>
+						</li>
+						<li>
+							<div class="u-cover3">
+								<img src="img/newDisc/disc3.jpg">
+								<a><p>将故事写成我们</p></a>
+								<a><p>林俊杰</p></a>
+							</div>
+						</li>
+						<li>
+							<div class="u-cover4">
+								<img src="img/newDisc/disc4.jpg">
+								<a><p>荒诞学家</p></a>
+								<a><p>尤长靖</p></a>
+							</div>
+						</li>
+						<li>
+							<div class="u-cover5">
+								<img src="img/newDisc/disc5.jpg">
+								<a><p>我不好</p></a>
+								<a><p>张艺兴</p></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!--榜单-->
+			<div class="hotList">
+				<div class="list_head">
+					<span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+					<a class="big_title">榜单</a>
+					<a class="more">更多</a>
+					<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+				</div>
+				<div class="list_bottom">
+					<div class="listBox box1">
+						<a href="" class="BdPicture bsb_picture"></a>
+						<div class="BdTxt bd1">
+							<h5>云音乐飙升榜</h5>
+							<span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+						</div>
+						<div class="Ranking">
+							<!--飙升榜榜单-->
+							<ul id="Rangking_bsb"></ul>
+						</div>
+					</div>
+					<div class="listBox box2">
+						<a href="" class="BdPicture xgb_picture"></a>
+						<div class="BdTxt bd2">
+							<h5>云音乐新歌榜</h5>
+							<span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+						</div>
+						<div class="Ranking">
+							<!--新歌榜榜单-->
+							<ul id="Rangking_xgb"></ul>
+						</div>
+					</div>
+					<div class="listBox box3">
+						<a href="" class="BdPicture ycb_picture"></a>
+						<div class="BdTxt bd3">
+							<h5>原创歌曲榜</h5>
+							<span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+						</div>
+						<div class="Ranking">
+							<!--原创榜榜单-->
+							<ul id="Rangking_ycb"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="box_right">
+			<div class="singer_head">
+				<h5>热门歌手</h5>
+				<a href="detail.html">查看全部</a>
+			</div>
+			<div class="singer_body">
+				<ul>
+					<li>
+						<a href=""><img src="img/singer/singer1.jpg" alt="" />
+							<div>
+								<span><strong>华晨宇</strong></span>
+								<p>中国男歌手</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href=""><img src="img/singer/singer2.jpg" alt="" />
+							<div>
+								<span><strong>李荣浩</strong></span>
+								<p>中国流行音乐制作人</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="singer_dengziqi.html" target="_top"><img src="img/singer/singer3.jpg" alt="" />
+							<div>
+							<span><strong>邓紫棋</strong></span>
+							<p>中国香港创作型女歌手</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href=""><img src="img/singer/singer4.jpg" alt="" />
+							<div>
+							<span><strong>陈&nbsp;&nbsp;&nbsp;&nbsp;粒</strong></span>
+							<p>中国内地民谣女歌手</p>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href=""><img src="img/singer/singer5.jpg" alt="" />
+						<div>
+							<span><strong>王贰浪</strong></span>
+							<p>音乐人</p>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href=""><img src="img/singer/singer6.jpg" alt="" />
+						<div>
+							<span><strong>薛之谦</strong></span>
+							<p>华语流行乐男歌手</p>
+						</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<audio src="music/music1.mp3" loop="true" id="musicplay"></audio>
+	</div>
+</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lunbo.js"></script>
+<script type="text/javascript" src="js/songList.js"></script>
